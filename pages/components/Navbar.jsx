@@ -4,17 +4,16 @@ import Link from "next/link";
 import NavItem from "./NavItem";
 
 const MENU_LIST = [
- {text: "Home", href: "/"},
- {text: "About", href: "/about"},
- {text: "Expertise", href: "/expertise"},
- {text: "Work History", href: "/workhistory"},
- {text: "Projects", href: "/projects"}
+ {text: "//   Home", href: "/"},
+ {text: "//   About", href: "/about"},
+ {text: "//   Expertise", href: "/expertise"},
+ {text: "//   Work History", href: "/workhistory"},
+ {text: "//   Projects", href: "/projects"}
 ];
 
 const NavBar  = () => {
   const [navActive, setNavActive] = useState(null);
   const [activeIndex, setActiveIndex] = useState(-1);
-
   return (
     <header>
       <nav className={`nav`}>
@@ -29,9 +28,6 @@ const NavBar  = () => {
           </a>
         </Link>
         <div onClick={()=>setNavActive(!navActive)} className={`nav__menu-bar`}>
-          <div></div>
-          <div></div>
-          <div></div>
         </div>
         <div className={`${navActive ? "active" : ""} nav__menu-list`}>
           {MENU_LIST.map((menu, index) => (
@@ -46,6 +42,7 @@ const NavBar  = () => {
             </div>
           ))}
         </div>
+        <div></div>
       </nav>
     </header>
   );
