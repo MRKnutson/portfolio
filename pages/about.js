@@ -1,12 +1,17 @@
 import NavBar from "./components/Navbar";
 import styles from "../styles/About.module.css";
+import Image from "next/image";
+import moab from "../public/images/IMG_8463.png";
+import heitman from "../public/images/IMG_3221.png";
+import crab from "../public/images/IMG_3170.png";
+import pillarSnow from "../public/images/IMG_2938.png";
 
 const About = () => {
   return (
     <div className={styles.container}>
       <NavBar />
       <main className={styles.main}>
-        <h1 className={styles.title}>A bunch of stuff about me</h1>
+        <h1 className={styles.title}>A little about me</h1>
         <div>
           <p className={styles.paragraph}>
             Growing up in Alaska I was enthralled with all things outdoors. Once
@@ -29,6 +34,22 @@ const About = () => {
             When I can't get outside I like to tinker with my guitar or dabble
             with one of my many other hobbies.
           </p>
+        </div>
+        <div className={styles.photoContainer}>
+          <Image
+            src={pillarSnow}
+            alt="winter dog hike"
+            width={333}
+            height={250}
+          />
+          <Image
+            src={moab}
+            alt="hiking in slot canyon"
+            width={176}
+            height={250}
+          />
+          <Image src={crab} alt="holding king crab" width={333} height={250} />
+          <Image src={heitman} alt="summer dog hike" width={333} height={250} />
         </div>
       </main>
     </div>

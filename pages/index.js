@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import NavBar from "./components/Navbar";
 import styles from "../styles/Home.module.css";
+import profilePic from "../public/images/profile_picture.png";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
           <div>
             <Image
               className={styles.profile}
-              src="/profile_picture.png"
+              src={profilePic}
               alt="Profile Picture"
               width={225}
               height={300}
