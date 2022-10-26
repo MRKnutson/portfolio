@@ -1,0 +1,35 @@
+.section {
+  margin: 5rem;
+  padding: 1rem;
+  background-color: rgb(86, 86, 86);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+}
+
+.sectionContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.sectionTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+
+.skillContainer {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+  padding-right: 6.5rem;
+  align-items: center;
+}
+
+.skill {
+  font-size: 1.25rem;
+  text-align: center;
+  padding-bottom: 1rem;
+}
