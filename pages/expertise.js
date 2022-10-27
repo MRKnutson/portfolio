@@ -17,6 +17,7 @@ import postgreSQL from "../public/images/postgreSQL.png";
 import rails from "../public/images/rails.png";
 import ruby from "../public/images/ruby.png";
 import vsc from "../public/images/VScode.png";
+import Footer from "./components/Footer";
 
 const Expertise = () => {
   return (
@@ -26,7 +27,7 @@ const Expertise = () => {
         <meta name="Expertise" content="Technology I have expertise with." />
       </Head>
       <NavBar />
-      <div>
+      <main>
         <section className={styles.section}>
           <h3 className={styles.sectionTitle}>Frontend</h3>
           <div className={styles.sectionContent}>
@@ -111,7 +112,8 @@ const Expertise = () => {
             </div>
           </div>
         </section>
-      </div>
+      </main>
+      <Footer />
     </div>
   );
 };

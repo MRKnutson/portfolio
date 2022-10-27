@@ -1,3 +1,4 @@
+import Head from "next/head";
 import NavBar from "./components/Navbar";
 import styles from "../styles/About.module.css";
 import Image from "next/image";
@@ -5,10 +6,15 @@ import moab from "../public/images/IMG_8463.png";
 import heitman from "../public/images/IMG_3221.png";
 import crab from "../public/images/IMG_3170.png";
 import pillarSnow from "../public/images/IMG_2938.png";
+import Footer from "./components/Footer";
 
 const About = () => {
   return (
     <div className={styles.container}>
+      <Head>
+        <title>About me</title>
+        <meta name="About" content="About me and my background." />
+      </Head>
       <NavBar />
       <main className={styles.main}>
         <h1 className={styles.title}>A little about me</h1>
@@ -52,6 +58,7 @@ const About = () => {
           <Image src={heitman} alt="summer dog hike" width={333} height={250} />
         </div>
       </main>
+      <Footer />
     </div>
   );
 };

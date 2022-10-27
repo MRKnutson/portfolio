@@ -1,0 +1,35 @@
+.main {
+  height: 80%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.screenshot {
+  border-radius: 1rem;
+}
+
+.screenshotLink {
+  border-radius: 1rem;
+}
+
+.screenshotLink:active,
+.screenshotLink:hover {
+  box-shadow: rgb(151, 154, 156) 0px 20px 30px -10px;
+}
+
+.projectContainer {
+  max-width: 30rem;
+}
+.projectTitle {
+  font-size: 1.25rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+
+.projectDescription {
+  font-size: 1.15rem;
+  padding-top: 1rem;
+}

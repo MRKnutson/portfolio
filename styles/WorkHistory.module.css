@@ -1,0 +1,50 @@
+.section {
+  margin: 5rem;
+  padding: 1rem;
+  background-color: rgb(86, 86, 86);
+  border-radius: 0.5rem;
+  padding-left: 2rem;
+}
+
+.sectionHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sectionContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.companyTitle {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 2rem;
+  font-weight: lighter;
+  padding-bottom: 2rem;
+}
+
+.jobTitle {
+  line-height: 1.15;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding-bottom: 1rem;
+}
+
+.jobDescription {
+  line-height: 1.15;
+  font-size: 1.25rem;
+}
+
+.jobList {
+  list-style-type: disc;
+  padding: 1rem;
+}
+
+.jobDuty {
+  line-height: 1.25;
+  font-size: 1.15rem;
+  padding-bottom: 0.5rem;
+}

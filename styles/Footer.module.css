@@ -1,0 +1,22 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 4rem;
+  background-color: rgb(0,0,0);
+}
+
+.footer a {
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+  padding-top: 0;
+}
+
+.download {
+  font-size: 1rem;
+}
+
+.download:hover {
+  font-size: 1.25rem;
+}

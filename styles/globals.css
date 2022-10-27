@@ -33,6 +33,12 @@ header {
   top: 0;
 }
 
+footer {
+  position: sticky;
+  z-index: 30;
+  bottom: 0;
+}
+
 nav {
   display: flex;
   padding: 0.25rem;
