@@ -21,14 +21,14 @@ const WorkHistory = () => {
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
             <h3 className={styles.companyTitle}>Divvy / Bill</h3>
-            <Image src={divvy} />
+            <Image src={divvy} alt="Divvy company logo" />
           </div>
           <h5 className={styles.jobTitle}>Software Engineer</h5>
           <div className={styles.sectionContent}>
             <p className={styles.jobDescription}>
               Worked as a full-stack software engineer intern for Divvy as it
-              transitioned through it's acquisition by Bill. Focused on the
-              Divvy software and prepared the software for integration with Bill
+              transitioned through acquisition by Bill. Focused on the Divvy
+              software and prepared the software for integration with Bill
               accounting software.
             </p>
             <ul className={styles.jobList}>
@@ -75,7 +75,12 @@ const WorkHistory = () => {
             <h3 className={styles.companyTitle}>
               Alaska Department of Fish and Game
             </h3>
-            <Image src={adfg} height={60} width={75} />
+            <Image
+              src={adfg}
+              alt="Alaska department of fish and game logo"
+              height={60}
+              width={75}
+            />
           </div>
           <h5 className={styles.jobTitle}>Fisheries Biologist</h5>
           <div className={styles.sectionContent}>

@@ -24,6 +24,7 @@ const Projects = () => {
           >
             <Image
               src={vocal}
+              alt="Screenshot of landing page of Vocal journal app"
               height={400}
               width={500}
               className={styles.screenshot}

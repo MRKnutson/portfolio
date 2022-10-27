@@ -32,7 +32,7 @@ export default function Home() {
 
           <div className={styles.grid}>
             <p className={styles.description}>
-              Hi! I'm a US based full-stack engineer focused on crafting clean
+              Hi! I am a US based full-stack engineer focused on crafting clean
               and efficient software for the end user. I am passionate about
               learning and love tinkering with various languages and frameworks.
               I love seeing a good project come together!

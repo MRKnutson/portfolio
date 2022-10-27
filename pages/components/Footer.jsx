@@ -15,12 +15,12 @@ const Footer = () => {
         </a>
         <a href="/Knutson_Resume_2022.pdf"  onMouseOver={()=>setHovergh(true)} onMouseOut={()=>setHovergh(false)}>
           <span>
-            <Image src={github} height={hovergh ? 40 : 30} width={hovergh ? 40 : 30} />
+            <Image src={github} alt="github logo" height={hovergh ? 40 : 30} width={hovergh ? 40 : 30} />
           </span>
         </a>
         <a href="https://www.linkedin.com/in/michaelrknutson/"  onMouseOver={()=>setHoverli(true)} onMouseOut={()=>setHoverli(false)}>
           <span>
-            <Image src={linkedIn} height={hoverli ? 40 : 30} width={hoverli ? 40 : 30} />
+            <Image src={linkedIn} alt="linkedIn logo" height={hoverli ? 40 : 30} width={hoverli ? 40 : 30} />
           </span>
         </a>
       </footer>
