@@ -29,16 +29,16 @@ const About = () => {
             working out in nature and decided that I really enjoyed working on
             computers. I redirected my career and began to learn software
             engineering. I have been on the constant journey of learning code
-            ever since. I have learned that I have a tendency towards being a
-            polygot and love working in new languages and continuing to develop
+            ever since. I learned that I have a tendency towards being a polygot
+            and love working in new languages and continuing to develop
             different skills and learn new ways of completing tasks.
           </p>
           <p className={styles.paragraph}>
             My hobbies still involve playing in the Alaskan outdoors. These days
             I spend a lot of time hiking, camping, and exploring with my two
             dogs. Once the snow starts flying I try to get out on my snowboard.
-            When I can't get outside I like to tinker with my guitar or dabble
-            with one of my many other hobbies.
+            When I am unable to get outside I like to tinker with my guitar or
+            dabble with one of my many other hobbies.
           </p>
         </div>
         <div className={styles.photoContainer}>
