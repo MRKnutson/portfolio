@@ -1,5 +1,5 @@
 import Head from "next/head";
-import NavBar from "./components/Navbar";
+import NavBar from "../public/components/Navbar";
 import styles from "../styles/Expertise.module.css";
 import Image from "next/image";
 import reactLogo from "../public/images/react.png";
@@ -17,7 +17,7 @@ import postgreSQL from "../public/images/postgreSQL.png";
 import rails from "../public/images/rails.png";
 import ruby from "../public/images/ruby.png";
 import vsc from "../public/images/VScode.png";
-import Footer from "./components/Footer";
+import Footer from "../public/components/Footer";
 
 const Expertise = () => {
   return (

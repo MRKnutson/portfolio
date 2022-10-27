@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
-import NavBar from "./components/Navbar";
+import NavBar from "../public/components/Navbar";
 import styles from "../styles/Home.module.css";
 import profilePic from "../public/images/profile_picture.png";
-import Footer from "./components/Footer";
+import Footer from "../public/components/Footer";
 
 export default function Home() {
   return (

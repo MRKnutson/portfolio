@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Head from "next/head";
-import Footer from "./components/Footer";
-import NavBar from "./components/Navbar";
+import Footer from "../public/components/Footer";
+import NavBar from "../public/components/Navbar";
 import vocal from "../public/images/vocal.png";
 import styles from "../styles/Projects.module.css";
 const Projects = () => {

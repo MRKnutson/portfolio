@@ -1,12 +1,12 @@
 import Head from "next/head";
-import NavBar from "./components/Navbar";
+import NavBar from "../public/components/Navbar";
 import styles from "../styles/About.module.css";
 import Image from "next/image";
 import moab from "../public/images/IMG_8463.png";
 import heitman from "../public/images/IMG_3221.png";
 import crab from "../public/images/IMG_3170.png";
 import pillarSnow from "../public/images/IMG_2938.png";
-import Footer from "./components/Footer";
+import Footer from "../public/components/Footer";
 
 const About = () => {
   return (

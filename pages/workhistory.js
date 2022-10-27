@@ -1,10 +1,10 @@
 import Head from "next/head";
-import NavBar from "./components/Navbar";
+import NavBar from "../public/components/Navbar";
 import styles from "../styles/WorkHistory.module.css";
 import Image from "next/image";
 import divvy from "../public/images/divvy-logo.png";
 import adfg from "../public/images/ADFG.png";
-import Footer from "./components/Footer";
+import Footer from "../public/components/Footer";
 
 const WorkHistory = () => {
   return (
