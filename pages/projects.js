@@ -19,10 +19,7 @@ const Projects = () => {
       <main className={styles.main}>
         <div className={styles.projectContainer}>
           <h3 className={styles.projectTitle}>Vocal Audio Journal</h3>
-          <a
-            href="http://vocaljournal.herokuapp.com/landing"
-            className={styles.screenshotLink}
-          >
+          <div className={styles.screenshotLink}>
             <Image
               src={vocal}
               alt="Screenshot of landing page of Vocal journal app"
@@ -30,12 +27,13 @@ const Projects = () => {
               width={500}
               className={styles.screenshot}
             />
-          </a>
+          </div>
           <p className={styles.projectDescription}>
             This project was developed as a capstone project by students at
             DevPoint Labs. It uses React, Ruby on Rails, and PostgreSQL, along
             with various additional libraries such as React Bootstrap.
           </p>
+          <p>*This application is currently de-activated for maintenance.</p>
         </div>
         <div className={styles.projectContainer}>
           <h3 className={styles.projectTitle}>Mordle</h3>
