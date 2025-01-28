@@ -10,7 +10,7 @@ const WorkHistory = () => {
   return (
     <div>
       <Head>
-        <title>Skills and Expertise</title>
+        <title>Work History</title>
         <meta
           name="Work History"
           content="Current and previous work experience"
